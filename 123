@@ -1,0 +1,6 @@
+<?php
+echo 'Текущая версия php' . phpversion();
+$phpversion = phpversion();
+if(phpversion<7)
+exit('Неправильная версия');
+?>
